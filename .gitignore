@@ -6,6 +6,7 @@ __pycache__/
 .Python
 env/
 venv/
+.venv
 ENV/
 build/
 develop-eggs/
@@ -32,8 +33,7 @@ wheels/
 *.ckpt
 
 # 训练结果文件夹
-models/
-results/
+
 checkpoints/
 
 # 数据文件
@@ -57,10 +57,7 @@ Thumbs.db
 # 临时文件
 *.log
 *.csv
-*.png
-*.jpg
+
 *.jpeg
 
 # 但保留示例图片（如果有）
-!sample_*.png
-!example_*.png
